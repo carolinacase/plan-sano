@@ -1,0 +1,53 @@
+/* :root es donde definimos las variables globales */
+:root {
+  --color-primary: #38761d;  /* Color principal */
+  --color-secondary: #bfd202; /* color secundario */
+  --color-aditionaly:#ffc643; /* color adicional */
+  --color-white: #ffffff;    /* Blanco */
+  --color-dark: #2c3e50;     /* Gris oscuro */
+  --font-size-base: 16px;    /* Tamaño base de fuente */
+  
+}
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    color: var(--color-primary);
+    background-color: var(--color-white);
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--color-primary);
+  }
+  
+  button {
+    font-family: var(--font-family);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--color-secondary);
+  }
+  
+  input {
+    font-family: var(--font-family);
+    padding: 10px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+  }
+  
